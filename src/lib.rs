@@ -71,7 +71,7 @@ mod tests {
                 RetentionAction::Keep => "keep",
                 RetentionAction::Archive => "archive",
             };
-            assert!(!name.is_empty());
+            assert_ne!(name, "");
         }
     }
 }
