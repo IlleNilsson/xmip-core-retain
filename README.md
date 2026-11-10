@@ -16,4 +16,4 @@ already-retained data on a schedule.
 
 ADR-0013 clause 2 makes it the owner of retained Streams and ADR-0040 ends
 retention at archiving; each store is a technology mounted under this
-repository, and `architecture.xmip` names them.
+repository, and `architecture.toml` names them.
